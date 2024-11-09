@@ -10,6 +10,6 @@ build: {
   },
   DllFolder: "",
   HotUpdateFolder: "update",
-  UseStartupChart: true,
-  IsUseSysTitle: false,
+  UseStartupChart: true,  // 启动动画
+  IsUseSysTitle: false,  // 默认菜单
 };
