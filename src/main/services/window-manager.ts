@@ -98,12 +98,10 @@ class MainInit {
     });
 
     this.loadWindow.loadURL(loadingURL);
+    this.loadWindow.setPosition(400, 100)
     this.loadWindow.show();
     this.loadWindow.setAlwaysOnTop(true);
-    // 延迟两秒可以根据情况后续调快，= =，就相当于个，sleep吧，就那种。 = =。。。
-    setTimeout(() => {
-      this.createMainWindow();
-    }, 1500);
+    this.createMainWindow();
   }
   // 初始化窗口函数
   initWindow() {
