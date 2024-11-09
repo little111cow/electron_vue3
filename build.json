@@ -8,7 +8,7 @@
     }
   ],
   "productName": "littlecow",
-  "appId": "org.sky.littlecow",
+  "appId": "org.littlecow.littlecow",
   "directories": {
     "output": "build"
   },

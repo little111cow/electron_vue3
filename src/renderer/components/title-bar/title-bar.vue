@@ -63,10 +63,15 @@ ipcRendererChannel.IsUseSysTitle.invoke().then((res) => {
     height: 100%;
     width: 20%;
     display: flex;
-    // justify-content: space-around;
+    -webkit-app-region: no-drag; // 不加会导致鼠标事件不可用
 
     .menu_item {
       margin-left: 2%;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgba(57, 57, 57, 0.2);
+      }
     }
   }
 
@@ -105,11 +110,13 @@ ipcRendererChannel.IsUseSysTitle.invoke().then((res) => {
     .windows-icon-bg:hover {
       background-color: rgba(182, 182, 182, 0.2);
       color: #333;
+      cursor: pointer;
     }
 
     .close-icon:hover {
       background-color: rgba(232, 17, 35, 0.9);
       color: #fff;
+      cursor: pointer;
     }
   }
 }

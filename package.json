@@ -2,7 +2,7 @@
   "name": "littlecow",
   "version": "1.0.0",
   "main": "./dist/electron/main/main.js",
-  "author": "sky <https://github.com/umbrella22>",
+  "author": "littlecow <https://github.com/umbrella22>",
   "description": "littlecow project",
   "license": "MIT",
   "scripts": {

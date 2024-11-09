@@ -1,5 +1,5 @@
 /**
- * power by biuuu
+ * power by littlecow
  */
 
 import { emptyDir, createWriteStream, readFile, copy, remove } from "fs-extra";
@@ -28,7 +28,7 @@ const request = axios.create();
  * @author umbrella22
  * @date 2021-03-05
  */
-function hash(data: Buffer, type = "sha256", key = "Sky"): string {
+function hash(data: Buffer, type = "sha256", key = "littlecow"): string {
   const hmac = createHmac(type, key);
   hmac.update(data);
   return hmac.digest("hex");

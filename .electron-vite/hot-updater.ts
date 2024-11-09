@@ -1,5 +1,5 @@
 /**
- * power by biuuu
+ * power by littlecow
  */
 
 import chalk from 'chalk'
@@ -18,7 +18,7 @@ const platformName = platform().includes('win32') ? 'win' : platform().includes(
 const buildPath = join('.', 'build', `${platformName === 'mac' ? 'mac' : platformName + '-unpacked'}`)
 
 const hash = (data, type = 'sha256') => {
-  const hmac = createHmac(type, 'Sky')
+  const hmac = createHmac(type, 'littlecow')
   hmac.update(data)
   return hmac.digest('hex')
 }

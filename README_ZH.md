@@ -8,7 +8,7 @@
 [![electron](https://img.shields.io/badge/electron-19.0.4-brightgreen.svg)](https://github.com/electron/electron)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/umbrella22/littlecow/blob/master/LICENSE)
 
-[国内访问地址](https://gitee.com/Zh-Sky/littlecow)
+[国内访问地址](https://gitee.com/Zh-littlecow/littlecow)
 
 ### 请确保您的 node 版本大于等于 16.
 

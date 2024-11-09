@@ -9,9 +9,9 @@ interface DesktopMsgProps {
 
 /**
  * @export
- * @Author: Sky
+ * @Author: littlecow
  * @Date: 2019-09-29 20:23:16
- * @Last Modified by: Sky
+ * @Last Modified by: littlecow
  * @Last Modified time: 2019-09-29 21:01:24
  * @param {DesktopMsgProps} option
  * @returns

@@ -11,7 +11,7 @@ import { webContentSend } from "./web-content-send";
  * @returns {void} 下载类
  * @param {mainWindow} 主窗口
  * @param {downloadUrl} 下载地址，当未传入时则会使用预先设置好的baseUrl拼接名称
- * @author Sky
+ * @author littlecow
  * @date 2020-08-12
  */
 

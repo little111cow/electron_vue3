@@ -58,7 +58,7 @@ export const useMenu = () => {
         // 赋予模板
         const menuTemplate = Menu.buildFromTemplate(menu);
         // 加载模板
-        Menu.setApplicationMenu(menuTemplate);
+        Menu.setApplicationMenu(null);
     }
     return {
         creactMenu
