@@ -1,9 +1,9 @@
 {
-  "name": "electron-vite-template",
+  "name": "littlecow",
   "version": "1.0.0",
   "main": "./dist/electron/main/main.js",
   "author": "sky <https://github.com/umbrella22>",
-  "description": "electron-vite-template project",
+  "description": "littlecow project",
   "license": "MIT",
   "scripts": {
     "dev": "tsx .electron-vite/dev-runner.ts",
@@ -22,6 +22,7 @@
     "axios": "^1.7.7",
     "electron-log": "^5.2.0",
     "electron-updater": "^6.3.4",
+    "element-plus": "^2.8.7",
     "glob": "^10.3.12",
     "semver": "^7.6.3"
   },

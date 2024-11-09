@@ -35,12 +35,12 @@ ipcRendererChannel.IsUseSysTitle.invoke().then((res) => {
 <style rel="stylesheet/scss" lang="scss" scoped>
 .window-title {
   width: 100%;
-  height: 30px;
+  height: 30.5px;
   line-height: 30px;
   background-color: #fff;
   display: flex;
   -webkit-app-region: drag;
-  position: fixed;
+  // position: fixed;
   top: 0;
   z-index: 99999;
 
@@ -78,7 +78,7 @@ ipcRendererChannel.IsUseSysTitle.invoke().then((res) => {
     flex-grow: 0;
     flex-shrink: 0;
     text-align: center;
-    position: relative;
+    position: fixed;
     z-index: 3000;
     -webkit-app-region: no-drag;
     height: 100%;

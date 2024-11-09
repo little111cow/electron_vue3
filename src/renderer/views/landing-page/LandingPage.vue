@@ -1,5 +1,6 @@
 <template>
   <div id="wrapper">
+    <el-button @click="getMessage">点我 </el-button>
     <div class="footer">底部状态栏</div>
   </div>
 </template>
@@ -8,6 +9,7 @@
 import SystemInformation from "./components/system-info-mation.vue";
 import { message } from "@renderer/api/login";
 import logo from "@renderer/assets/logo.png";
+import { ElMessageBox } from "element-plus";
 import { onUnmounted, ref } from "vue";
 import { i18nt, setLanguage, globalLang } from "@renderer/i18n";
 import { useStoreTemplate } from "@store/template";
@@ -69,9 +71,9 @@ function openNewWin() {
 }
 function getMessage() {
   message().then((res) => {
-    // ElMessageBox.alert(res.data, "提示", {
-    //   confirmButtonText: "确定",
-    // });
+    ElMessageBox.alert(res.data, "提示", {
+      confirmButtonText: "确定",
+    });
   });
 }
 function StopServer() {
@@ -228,28 +230,31 @@ ipcRendererChannel.UpdateProcessStatus.on((event, msg) => {
 
 body {
   font-family: "Source Sans Pro", sans-serif;
+  overflow: hidden;
 }
 
 #wrapper {
+  // margin-top: 30.5px;
   height: 100%;
   width: 100%;
-  background: rgba(57, 57, 57, 1);
-  overflow: scroll;
-  position: relative;
+  background: rgba(225, 225, 225, 1);
+  overflow-y: scroll;
+  // position: relative;
 }
 
 ::-webkit-scrollbar {
-  display: none;
+  z-index: -1;
 }
 
 .footer {
-  color: rgba(255, 255, 255, 0.8);
   position: fixed;
   margin-bottom: 0;
-  height: 3vh;
+  height: 25px;
   width: 100vw;
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.6);
   top: 97vh;
+  z-index: 999999;
+  font-size: 12px;
 }
 
 #logo {

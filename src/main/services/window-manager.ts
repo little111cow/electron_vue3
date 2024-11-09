@@ -28,6 +28,7 @@ class MainInit {
       useContentSize: true,
       width: 1200,
       minWidth: 800,
+      minHeight: 600,
       show: false,
       frame: config.IsUseSysTitle,
       webPreferences: {
