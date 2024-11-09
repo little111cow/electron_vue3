@@ -28,7 +28,7 @@ npm install
 npm run dev
 
 # build命令在不同系统环境中，需要的的不一样，需要自己根据自身环境进行配置
-npm run build
+npm run build // 需要在管理员权限的powershell下执行打包，否则下载解压依赖文件会报错
 
 ```
 

@@ -43,6 +43,7 @@ ipcRendererChannel.IsUseSysTitle.invoke().then((res) => {
   // position: fixed;
   top: 0;
   z-index: 99999;
+  user-select: none;
 
   .icon-logo {
     width: 1em;

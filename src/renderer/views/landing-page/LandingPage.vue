@@ -255,6 +255,7 @@ body {
   top: 97vh;
   z-index: 999999;
   font-size: 12px;
+  user-select: none;
 }
 
 #logo {
